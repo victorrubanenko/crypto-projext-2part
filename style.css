@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: "inherit";
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: white;
+}
+
+img, svg {
+  transition: 0.3s;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.dnone {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #090A0B;
+}
+
+.container {
+  width: 1200px;
+  margin: 30px auto;
+}
+@media (max-width: 1250px) {
+  .container {
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+.container .blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+.container h2 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+.container header {
+  text-align: center;
+  color: #B5B6B6;
+  font-size: 16px;
+  font: "Inter";
+}
+.container .block {
+  width: 30%;
+}
+.container .block .profit {
+  display: flex;
+  justify-content: space-between;
+}
+.container .block .profit .num {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.container .block .profit .num .percent, .container .block .profit .num .sum {
+  margin: auto 0;
+}
+.container .block .profit .num .percent {
+  background: green;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 10px;
+}
+.container .block .recomended_deposit {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7411764706);
+}
+.container .block .img {
+  margin-top: 14px;
+}
+.container .block .img2 {
+  width: 349px;
+  height: 149px;
+}
+.container .block .medium_profit {
+  color: #808080;
+  font-size: 13px;
+}
+.container .block .miniblock {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px auto;
+}
+.container .block .miniblock .sum {
+  color: white;
+  font-size: 36px;
+}
+.container .block .miniblock .percent {
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #ACE44F;
+}
+.container .block hr {
+  color: rgba(79, 128, 255, 0.1411764706);
+}
+.container .block .description {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .block .description .line1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #B5B6B6;
+}
+.container .block .description .line1 .parameter {
+  font-size: 14px;
+  color: #B5B6B6;
+}
+.container .block .description .line1 .short_text {
+  border-radius: 11px;
+  background-color: rgba(55, 99, 255, 0.1019607843);
+  flex-wrap: wrap;
+}
+.container .block .description .line2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #B5B6B6;
+}
+.container .block .description .line2 .parameter {
+  font-size: 14px;
+  color: #B5B6B6;
+}
+.container .block .description .line2 .short_text {
+  border-radius: 11px;
+  background-color: rgba(55, 99, 255, 0.1019607843);
+}
+.container .block .description .line99 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #B5B6B6;
+}
+.container .block .description .line99 .parameter {
+  font-size: 14px;
+  color: #B5B6B6;
+}
+.container .block .description .line99 .short_text {
+  border-radius: 11px;
+  background-color: rgba(55, 99, 255, 0.1019607843);
+}
+.container .block s {
+  color: #808080;
+}
+.container .block .buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.container .block .buttons button {
+  background-color: #3763FF;
+  border-radius: 65px;
+  font-size: 16px;
+  color: white;
+}
+.container .security {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.container .text, .container img {
+  margin: auto 0;
+}
+.container .text {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
